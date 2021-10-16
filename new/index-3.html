@@ -1,708 +1,569 @@
 <!DOCTYPE html>
-    <html lang="en">
-    
-<!-- Mirrored from webtend.net/demo/html/landio/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Aug 2021 21:56:32 GMT -->
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from axilthemes.com/demo/template/abstrak/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Oct 2021 12:10:15 GMT -->
 <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landio - Mobile App Landing Page </title>
-        <!--====== Bootstrap ======-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--====== Font Awesome ======-->
-        <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
-        <!--====== Flaticon ======-->
-        <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
-        <!--====== Animate CSS ======-->
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-        <!--====== Slick Slider ======-->
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <!--====== Nice Select  ======-->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <!--====== Default css ======-->
-        <link rel="stylesheet" href="assets/css/default.css">
-        <!--====== Main Stylesheet ======-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!--====== Responsive Stylesheet ======-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <!-- Place favicon in the root directory -->
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    </head>
-    <body>
-        <!--======= Start Preloader =======-->
-        <div class="preloader">
-            <img class="preloader-image" width="60" src="assets/img/preloader-logo.png" alt="preloader"/>
-        </div> <!-- /.preloader -->
-        <!--======= End Preloader =======-->
-        <!--====== Start Search From ======-->
-        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <form>
-                        <div class="form_group">
-                            <input type="text" class="form_control" placeholder="Search here...">
-                            <button class="search_btn"><i class="fa fa-search"></i></button>
-                        </div>
-                    </form>
-                </div> <!-- /.modal-content -->
-            </div> <!-- /.modal-dialog -->
-        </div><!-- /#search-modal -->
-        <!--====== End Search From ======-->
-        <!--====== Start Header Area ======-->
-        <header class="header-area header-v2">
-            <div class="header-navigation">
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Abstrak | Personal Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/sal.css">
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/green-audio-player.min.css">
+
+    <!-- Site Stylesheet -->
+    <link rel="stylesheet" href="assets/css/app.css">
+
+</head>
+
+<body class="sticky-header">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+    <a href="#main-wrapper" id="backto-top" class="back-to-top">
+        <i class="far fa-angle-double-up"></i>
+    </a>
+
+    <!-- Preloader Start Here -->
+    <div id="preloader"></div>
+    <!-- Preloader End Here -->
+
+    <div class="my_switcher d-none d-lg-block">
+        <ul>
+            <li title="Light Mode">
+                <a href="javascript:void(0)" class="setColor light" data-theme="light">
+                    <i class="fal fa-lightbulb-on"></i>
+                </a>
+            </li>
+            <li title="Dark Mode">
+                <a href="javascript:void(0)" class="setColor dark" data-theme="dark">
+                    <i class="fas fa-moon"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="main-wrapper" class="main-wrapper">
+
+        <!--=====================================-->
+        <!--=        Header Area Start       	=-->
+        <!--=====================================-->
+        <header class="header axil-header header-style-3">
+            <div id="axil-sticky-placeholder"></div>
+            <div class="axil-mainmenu">
                 <div class="container">
-                    <div class="row align-items-center">
-                        <!-- Brand Logo -->
-                        <div class="col-xl-2 col-md-3 col-6">
-                            <div class="site-branding-and-language-selection">
-                                <div class="brand-logo">
-                                    <a href="index.html">
-                                        <img src="assets/img/logo-white.png" alt="logo white" class="logo-v1">
-                                        <img src="assets/img/logo-yellow.png" alt="logo yellow" class="logo-v2">
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="header-navbar">
+                        <div class="header-logo">
+                            <a href="index-1.html"><img class="light-version-logo" src="assets/media/logo.svg" alt="logo"></a>
+                            <a href="index-1.html"><img class="dark-version-logo" src="assets/media/logo-3.svg" alt="logo"></a>
+                            <a href="index-1.html"><img class="sticky-logo" src="assets/media/logo-2.svg" alt="logo"></a>
                         </div>
-                        <!-- Desktop and Mobile Menu -->
-                        <div class="col-xl-10 col-md-9 col-6 text-center">
-                            <div class="primary-menu d-flex justify-content-end align-items-center">
-                                <div class="nav-menu">
-                                    <!-- Navbar Close Icon -->
-                                    <div class="navbar-close">
-                                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                                    </div>
-                                    <nav class="main-menu">
-                                        <ul>
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="index.html" class="nav-link active">Demos</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="index.html">Homepage Sass</a></li>
-                                                    <li><a href="index-2.html">Homepage SEO</a></li>
-                                                    <li><a href="index-3.html" class="nav-link active">Homepage App</a></li>
-                                                    <li><a href="index-4.html">Homepage Chatbot</a></li>
-                                                    <li><a href="index-5.html">Homepage Consultant</a></li>
-                                                    <li><a href="index-6.html">Homepage Fintech</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="services.html" class="nav-link">Solutions</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="services.html">Our Solutions</a></li>
-                                                    <li><a href="service-details.html">Solutions Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="pricing.html" class="nav-link">Pricing</a>
-                                            </li>
-                                            <li class="menu-item menu-item-has-children">
-                                                <a href="#" class="nav-link">Pages</a>
-                                                <ul class="sub-menu">
-                                                    <li><a href="about.html">About Us</a></li>
-                                                    <li><a href="team.html">Our Team</a></li>
-                                                    <li><a href="coming-soon.html">Coming Soon</a></li>
-                                                    <li><a href="404.html">404</a></li>
-                                                    <li><a href="blog-standard.html">Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item">
-                                                <a href="contact.html" class="nav-link">Contact</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div class="header-right">
+                        <div class="header-action">
+                            <ul class="list-unstyled">
+                                <li class="header-social-link">
+                                    <ul class="social-icon-list list-unstyled">
+                                        <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://www.behance.net/"><i class="fab fa-behance"></i></a></li>
+                                    </ul>
+                                </li>
+                                <li class="sidemenu-btn">
+                                    <button class="btn-wrap" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenuRight">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </li>
+                                <li class="my_switcher d-block d-lg-none">
                                     <ul>
-                                        <li class="get-started-wrapper">
-                                            <a href="services.html" class="filled-btn bg-burning-orange">
-                                                Get Started <i class="fas fa-arrow-right"></i>
+                                        <li title="Light Mode">
+                                            <a href="javascript:void(0)" class="setColor light" data-theme="light">
+                                                <i class="fal fa-lightbulb-on"></i>
                                             </a>
                                         </li>
-                                        <li>
-                                            <div class="menu-toggle">
-                                                <div class="menu-overlay"></div>
-                                                <!-- Navbar Toggler -->
-                                                <div class="nav-toggle">
-                                                    <div class="navbar-toggler float-end">
-                                                        <span></span>
-                                                        <span></span>
-                                                        <span></span>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <li title="Dark Mode">
+                                            <a href="javascript:void(0)" class="setColor dark" data-theme="dark">
+                                                <i class="fas fa-moon"></i>
+                                            </a>
                                         </li>
                                     </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.row -->
-                </div> <!-- /.container-fluid -->
-            </div> <!-- /.header-navigation -->
-        </header> <!-- /.header-area -->
-        <!--====== End Header Area ======-->
-        <!--====== Start Hero Area ======-->
-        <section class="hero-area hero-v3 bg-contain bg-tuna" style="background-image: url(assets/img/hero/hero-leaf-bg.jpg);">
-            <div class="container">
-                <div class="row align-items-end">
-                    <div class="col-lg-7">
-                        <div class="hero-content">
-                            <div class="section-particle-effect d-none d-lg-block">
-                                <img class="particle-1 animate-rotate-me" src="assets/img/particle/particle-8.png" alt="particle One">
-                                <img class="particle-3 animate-zoominout" src="assets/img/particle/particle-9.png" alt="particle Three">
-                            </div>
-                            <div class="section-title section-title-white">
-                                <h1 class="wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="2500ms">Solutions Your Problem In <span>One </span> Hand</h1>
-                                <div class="section-button-wrapper section-dual-button wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="2500ms">
-                                    <a href="service-details.html" class="filled-btn bg-rose-bud">
-                                        Apple Store <i class="fab fa-apple"></i>
-                                    </a>
-                                    <a href="service-details.html" class="filled-btn btn-bordered">
-                                        Google Play <i class="fab fa-google-play"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="hero-right-image-wrapper text-center text-lg-right wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="2500ms">
-                            <img src="assets/img/hero/hero-mobile-on-hand.png" alt="hero right image">
-                        </div> <!-- /.blob-right-image-wrapper -->
-                    </div>
-                </div> <!-- /.row -->
-            </div> <!-- .container -->
-        </section> <!-- /.hero-area -->
-        <!--====== End Hero Area ======-->
-        <!--====== Start Feature Area ======-->
-        <section class="features-area">
-            <div class="container">
-                <div class="section-internal pt-130 pb-93 border-bottom">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="section-title section-title-tuna">
-                                <div class="section-heading-tag">
-                                    <span class="single-heading-tag p-0 text-old-lavender bordered-tag">How Can Help You</span>
-                                </div>
-                                <h2>Build an Awesome 
-                                    <span>Apps With</span>
-                                    Us 
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="icon-boxes-wrapper">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="single-iconic-box wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                            <div class="iconic-box-icon iconic-box-gradient-1">
-                                                <i class="far fa-cog"></i>
-                                            </div>
-                                            <div class="iconic-box-body">
-                                                <h5 class="iconic-box-title">Easy to Manage Data</h5>
-                                                <p class="iconic-box-content">
-                                                    Sed ut perspiciatis unde omnis este error voluptate accusantium doloremque systems.
-                                                </p>
-                                                <div class="iconic-box-btn">
-                                                    <a href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="single-iconic-box wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                            <div class="iconic-box-icon iconic-box-gradient-2">
-                                                <i class="far fa-cog"></i>
-                                            </div>
-                                            <div class="iconic-box-body">
-                                                <h5 class="iconic-box-title">Device Quality Design</h5>
-                                                <p class="iconic-box-content">
-                                                    Quis autem veleure prehender quinea voluptate velit esse quam molestiae consequatur
-                                                </p>
-                                                <div class="iconic-box-btn">
-                                                    <a href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.row -->
-                </div> <!-- /.section-internal -->
-            </div> <!-- /.container -->
-        </section> <!-- /.features-area -->
-        <!--====== End Feature Area ======-->
-        <!--====== Start Manage Data Area ======-->
-        <section class="manage-data-area pt-120 pb-88">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7">
-                        <div class="manage-data-image content-right-spacer animate-float-bob-y wow fadeInDown" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <img src="assets/img/app/manage-data.png" alt="Manage Data">
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="section-title section-title-tuna">
-                            <h2>Manage Your Mobile
-                                <span>Data Very</span>
-                                Easily 
-                            </h2>
-                            <div class="section-title-description">
-                                <p>Nentore veritatis quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem voluptas sit aspernatur aut quia consequuntur </p>
-                            </div>
-                        </div>
-                        <div class="iconic-list-wrapper">
-                            <div class="single-iconic-list iconic-list-bg iconic-list-padding wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="iconic-list-icon">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div class="iconic-list-body">
-                                    <h5 class="iconic-list-title">Innovative Solution</h5>
-                                    <p class="iconic-list-content">
-                                        On the other hand denounce with righteous indignation and dislike beguiled
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="single-iconic-list iconic-list-padding wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <div class="iconic-list-icon">
-                                    <i class="fas fa-check"></i>
-                                </div>
-                                <div class="iconic-list-body">
-                                    <h5 class="iconic-list-title">Devices With Quality</h5>
-                                    <p class="iconic-list-content">
-                                        But I must explain to you how all mistaken denouncing pleasure and praising
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </section> <!-- /.manage-data-area  -->
-        <!--====== End Manage Data Area ======-->
-        <!--====== Start Collaboration Area ======-->
-        <section class="collaboration-area bg-cover pt-149" style="background-image: url(assets/img/app/collaboration-bg.jpg);">
-            <div class="container">
-                <div class="section-internal position-relative">
-                    <div class="row">
-                        <div class="col-lg-7">
-                            <div class="collaboration-content pb-130">
-                                <div class="section-title section-title-tuna">
-                                    <h2>Collaborate With Real <span>Team & Users.​​</span></h2>
-                                    <div class="section-title-description">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudante totam rem aperiam, eaque ipsa quae abillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. nemo enim ipsam voluptatem</p>
-                                    </div>
-                                </div>
-                                <div class="iconic-list-wrapper iconic-list-wrapper-v2">
-                                    <div class="single-iconic-list iconic-list-v2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                        <div class="iconic-list-icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="iconic-list-body">
-                                            <h5 class="iconic-list-title">Easy To Collaborate With User</h5>
-                                        </div>
-                                    </div>
-                                    <div class="single-iconic-list iconic-list-v2 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                        <div class="iconic-list-icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="iconic-list-body">
-                                            <h5 class="iconic-list-title">Manage Team & Users Flow</h5>
-                                        </div>
-                                    </div>
-                                    <div class="single-iconic-list iconic-list-v2 wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                                        <div class="iconic-list-icon">
-                                            <i class="fas fa-check"></i>
-                                        </div>
-                                        <div class="iconic-list-body">
-                                            <h5 class="iconic-list-title">Upgrade Dashboard Systems</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="section-right-image text-center animate-float-bob-y section-image-circle-shape wow fadeInDown" data-wow-delay="0ms" data-wow-duration="2000ms">
-                        <img src="assets/img/app/collaboration-right-app-screenshot.png" alt="collaboration app screenshot">
-                    </div> <!-- /.section-right-image -->
-                </div> <!-- /.section-internal -->
-            </div> <!-- /.container -->
-        </section> <!-- /.collaboration-area -->
-        <!--====== End Collaboration Area ======-->
-        <!--====== Start Our Services Area ======-->
-        <section class="our-services pt-216 pb-130">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <div class="section-title mb-135 text-center section-title-tuna">
-                            <h2>Made Amazing Mobile Application <br class="d-none d-md-block"> With <span>Our Solutions</span></h2>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+            </div>
+        </header>
+        <!--=====================================-->
+        <!--=        Banner Area Start          =-->
+        <!--=====================================-->
+        <section class="banner banner-style-3">
+            <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="section-right-image text-center animate-float-bob-y wow fadeInDown" data-wow-delay="0ms" data-wow-duration="2000ms">
-                            <img src="assets/img/services/service-image.png" alt="service left thumbnail">
-                        </div>
-                    </div>
-                    <div class="col-lg-7">
-                        <div class="icon-boxes-wrapper icon-boxes-grid">
-                            <div class="single-iconic-box iconic-box-v2">
-                                <div class="iconic-box-icon iconic-box-gradient-3">
-                                    <i class="far fa-user-chart"></i>
-                                </div>
-                                <div class="iconic-box-body">
-                                    <h5 class="iconic-box-title">Team Management</h5>
-                                    <p class="iconic-box-content">
-                                        Sed ut perspiciatis unde este error voluptate accus antium doloremque
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="single-iconic-box iconic-box-v2">
-                                <div class="iconic-box-icon iconic-box-gradient-4">
-                                    <i class="far fa-compass"></i>
-                                </div>
-                                <div class="iconic-box-body">
-                                    <h5 class="iconic-box-title">Time Tracking</h5>
-                                    <p class="iconic-box-content">
-                                        But I must explain to you how all this mistaken idea denouncing pleasure
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="single-iconic-box iconic-box-v2">
-                                <div class="iconic-box-icon iconic-box-gradient-5">
-                                    <i class="far fa-squirrel"></i>
-                                </div>
-                                <div class="iconic-box-body">
-                                    <h5 class="iconic-box-title">Payment System</h5>
-                                    <p class="iconic-box-content">
-                                        Quis autem vel eum iure reprehe deritea voluptate velit esse quam nihil
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="single-iconic-box iconic-box-v2">
-                                <div class="iconic-box-icon iconic-box-gradient-6">
-                                    <i class="far fa-fingerprint"></i>
-                                </div>
-                                <div class="iconic-box-body">
-                                    <h5 class="iconic-box-title">High Security</h5>
-                                    <p class="iconic-box-content">
-                                        At vero eoset accusame et iusto odio dignissimosy ducimus qui bland
-                                    </p>
-                                </div>
+                    <div class="col-lg-6">
+                        <div class="banner-content">
+                            <span class="subtitle" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">JOHNATHAN SMITH</span>
+                            <h1 class="title" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">UI/UX ineraction designer</h1>
+                            <div class="btn-group" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                                <a href="https://dribbble.com/axilweb/" class="axil-btn btn-fill-primary btn-large">Latest Work On Dribbble</a>
+                                <a href="about-us.html" class="about-btn">About Me</a>
                             </div>
                         </div>
                     </div>
-                </div> <!-- /,row -->
-            </div> <!-- /.container -->
-        </section> <!-- /.our-services -->
-        <!--====== End Our Services Area ======-->
-        <!--====== Start Featured Video Area ======-->
-        <div class="featured-video-area">
+                    <div class="col-lg-6">
+                        <div class="banner-thumbnail">
+                            <div class="large-thumb" data-sal="slide-up" data-sal-duration="800" data-sal-delay="500">
+                                <img class="paralax-image" src="assets/media/banner/banner-thumb-6.png" alt="Shape">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="list-unstyled shape-group-20">
+                <li class="shape shape-1" data-sal="slide-down" data-sal-duration="500" data-sal-delay="100">
+                    <img src="assets/media/others/bubble-32.png" alt="Bubble">
+                </li>
+                <li class="shape shape-2" data-sal="slide-left" data-sal-duration="500" data-sal-delay="200">
+                    <img src="assets/media/others/bubble-33.png" alt="Bubble">
+                </li>
+                <li class="shape shape-4" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
+                    <img src="assets/media/others/bubble-14.png" alt="Bubble">
+                </li>
+                <li class="shape shape-5" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
+                    <img src="assets/media/others/bubble-4.png" alt="Bubble">
+                </li>
+                <li class="shape shape-6" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
+                    <img src="assets/media/others/bubble-30.png" alt="Bubble">
+                </li>
+                <li class="shape shape-7" data-sal="slide-left" data-sal-duration="500" data-sal-delay="700">
+                    <img src="assets/media/others/bubble-31.png" alt="Bubble">
+                </li>
+                <li class="shape shape-8 marque-images"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Project Area Start         =-->
+        <!--=====================================-->
+        <section class="section section-padding-equal bg-color-dark">
+            <div class="container">
+                <div class="section-heading heading-light-left">
+                    <span class="subtitle">Case study</span>
+                    <h2 class="title">Selected projects</h2>
+                    <p>Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue eget risus imperdiet.</p>
+                </div>
+                <div class="row row-45">
+                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800">
+                        <div class="project-grid project-style-2">
+                            <div class="thumbnail">
+                                <a href="single-portfolio.html">
+                                    <img src="assets/media/project/project-7.png" alt="project">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <span class="subtitle">ios, design</span>
+                                <h3 class="title"><a href="single-portfolio.html">Mark Design</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="project-grid project-style-2">
+                            <div class="thumbnail">
+                                <a href="single-portfolio.html">
+                                    <img src="assets/media/project/project-8.png" alt="project">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <span class="subtitle">ios, design</span>
+                                <h3 class="title"><a href="single-portfolio.html">Abstrak Agency</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800">
+                        <div class="project-grid project-style-2">
+                            <div class="thumbnail">
+                                <a href="single-portfolio.html">
+                                    <img src="assets/media/project/project-9.png" alt="project">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <span class="subtitle">ios, design</span>
+                                <h3 class="title"><a href="single-portfolio.html">Archi- Online platform</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="project-grid project-style-2">
+                            <div class="thumbnail">
+                                <a href="single-portfolio.html">
+                                    <img src="assets/media/project/project-12.png" alt="project">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <span class="subtitle">ios, design</span>
+                                <h3 class="title"><a href="single-portfolio.html">Wordpress theme</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="more-project-btn">
+                    <a href="portfolio.html" class="axil-btn btn-fill-white">Discover More Projects</a>
+                </div>
+            </div>
+            <ul class="list-unstyled shape-group-10">
+                <li class="shape shape-1"><img src="assets/media/others/circle-1.png" alt="Circle"></li>
+                <li class="shape shape-2"><img src="assets/media/others/line-3.png" alt="Circle"></li>
+                <li class="shape shape-3"><img src="assets/media/others/bubble-5.png" alt="Circle"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Project Area Start         =-->
+        <!--=====================================-->
+        <section class="section section-padding pb--80 pb_lg--40 pb_md--20 pb_sm--0">
+            <div class="container">
+                <div class="section-heading heading-left">
+                    <span class="subtitle">Featured Case study</span>
+                    <h2 class="title">Photography &amp; drawing</h2>
+                </div>
+                <div class="row row-45">
+                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800">
+                        <div class="project-grid project-style-2">
+                            <div class="thumbnail">
+                                <a href="single-portfolio.html">
+                                    <img src="assets/media/project/project-10.png" alt="project">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <span class="subtitle">2021</span>
+                                <h3 class="title"><a href="single-portfolio.html">Product photography</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" data-sal="slide-up" data-sal-duration="800" data-sal-delay="200">
+                        <div class="project-grid project-style-2">
+                            <div class="thumbnail">
+                                <a href="single-portfolio.html">
+                                    <img src="assets/media/project/project-11.png" alt="project">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <span class="subtitle">2020</span>
+                                <h3 class="title"><a href="single-portfolio.html">Illustration</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=        Brand Area Start       	=-->
+        <!--=====================================-->
+        <section class="section section-padding bg-color-dark">
+            <div class="container">
+                <div class="section-heading heading-light-left">
+                    <span class="subtitle">Top Clients</span>
+                    <h2 class="title">We’ve built solutions for...</h2>
+                    <p>Design anything from simple icons to fully featured websites and applications.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500">
+                        <div class="brand-grid active">
+                            <img src="assets/media/brand/brand-1.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-2.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-3.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-4.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-5.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-6.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-7.png" alt="Brand">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700">
+                        <div class="brand-grid">
+                            <img src="assets/media/brand/brand-8.png" alt="Brand">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="shape-group-2 list-unstyled">
+                <li class="shape shape-1"><img src="assets/media/others/circle-1.png" alt="circle"></li>
+                <li class="shape shape-2"><img src="assets/media/others/line-3.png" alt="circle"></li>
+                <li class="shape shape-3"><img src="assets/media/others/bubble-3.png" alt="circle"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=       Testimonial Area Start      =-->
+        <!--=====================================-->
+        <section class="section section-padding-equal">
+            <div class="container">
+                <div class="section-heading heading-left">
+                    <span class="subtitle">Testimonial</span>
+                    <h2 class="title">From getting started</h2>
+                    <p>Nulla facilisi. Nullam in magna id dolor blandit rutrum eget vulputate augue sed eu leo eget risus imperdiet.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                        <div class="testimonial-grid">
+                            <span class="social-media"><img src="assets/media/icon/google-2.png" alt="google"></span>
+                            <p>“ Donec metus lorem, vulputate
+                                at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”</p>
+                            <div class="author-info">
+                                <div class="thumb">
+                                    <img src="assets/media/testimonial/testimonial-1.png" alt="Google Review">
+                                </div>
+                                <div class="content">
+                                    <span class="name">Darrell Steward</span>
+                                    <span class="designation">Executive Chairman</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                        <div class="testimonial-grid">
+                            <span class="social-media"><img src="assets/media/icon/fb-2.png" alt="Facebook"></span>
+                            <p>“ Donec metus lorem, vulputate
+                                at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”</p>
+                            <div class="author-info">
+                                <div class="thumb">
+                                    <img src="assets/media/testimonial/testimonial-2.png" alt="Google Review">
+                                </div>
+                                <div class="content">
+                                    <span class="name">Savannah Nguyen</span>
+                                    <span class="designation">Executive Chairman</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300">
+                        <div class="testimonial-grid">
+                            <span class="social-media"><img src="assets/media/icon/yelp-2.png" alt="Yelp"></span>
+                            <p>“ Donec metus lorem, vulputate
+                                at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit. ”</p>
+                            <div class="author-info">
+                                <div class="thumb">
+                                    <img src="assets/media/testimonial/testimonial-3.png" alt="Google Review">
+                                </div>
+                                <div class="content">
+                                    <span class="name">Floyd Miles</span>
+                                    <span class="designation">Executive Chairman</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="axil-followers">
+                    <ul class="followers-list list-unstyled">
+                        <li class="dribble" data-sal="slide-up" data-sal-duration="1000">
+                            <a href="https://facebook.com/"><i class="fab fa-dribbble"></i><span>60k
+                                    Followers</span></a>
+                        </li>
+                        <li class="behance" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="100">
+                            <a href="https://www.behance.net/"><i class="fab fa-behance"></i><span>30k
+                                    Followers</span></a>
+                        </li>
+                        <li class="linkedin" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i><span>13k
+                                    Connections</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="shape-group-4 list-unstyled">
+                <li class="shape-1"><img src="assets/media/others/bubble-1.png" alt="Bubble"></li>
+            </ul>
+        </section>
+        <!--=====================================-->
+        <!--=        Contact Area Start       	=-->
+        <!--=====================================-->
+        <section class="section-padding bg-color-dark">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="featured-video-content video-overlay bg-cover play-video" style="background-image: url(assets/img/feature/featured-video-cover.jpg);">
-                            <a href="https://vimeo.com/87110435" class="play-video-btn play-video-btn-v2"><i class="fas fa-play pulse-animated"></i></a>
+                    <div class="col-lg-6" data-sal="slide-up" data-sal-duration="1000">
+                        <div class="contact-address mb--30">
+                            <div class="section-heading heading-light-left">
+                                <span class="subtitle">Need a designer?</span>
+                                <h2 class="title">Let’s work together</h2>
+                            </div>
+                            <div class="address-list">
+                                <div class="address">
+                                    <h6 class="title">Mail</h6>
+                                    <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                </div>
+                                <div class="address">
+                                    <h6 class="title">Address</h6>
+                                    <p>Warnwe Park Streetperrine, FL 33157 New York City</p>
+                                </div>
+                                <div class="address">
+                                    <h6 class="title">Phone</h6>
+                                    <p><a href="tel:+0123456789">+0123456789</a></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </div> <!-- /.featured-video-area -->
-        <!--====== End Featured Video Area ======-->
-        <!--====== Start Testimonial Area ======-->
-        <section class="testimonial-area bg-tuna border-0 bg-contain testimonial-area-overflow pb-120" style="background-image: url(assets/img/testimonial/testimonial-pattern-bg.png);">
+                    <div class="col-lg-6" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="200">
+                        <div class="contact-form-box mb--30">
+                            <h3 class="title">Describe your project</h3>
+                            <form method="POST" action="https://axilthemes.com/demo/template/abstrak/mail.php" class="axil-contact-form">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" name="contact-name" placeholder="John Smith">
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" name="contact-email" placeholder="example@mail.com">
+                                </div>
+                                <div class="form-group mb--40">
+                                    <label>How can we help you?</label>
+                                    <textarea name="contact-message" id="message" class="form-control textarea" cols="30" rows="6"></textarea>
+                                </div>
+                                <div class="form-group text-end">
+                                    <button type="submit" class="axil-btn btn-fill-primary w-auto btn-primary" name="submit-btn">SEND</button>
+                                </div>
+                                <input type="hidden" class="form-control" name="contact-company" value="Null">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=        Footer Area Start       	=-->
+        <!--=====================================-->
+        <footer class="footer-area footer-dark">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="testimonial-slider testimonial-slider-v2" id="testimonial-slider-v2">
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial single-testimonial-v2">
-                                <div class="quote-thumbnail">
-                                    <i class="flaticon-right-quote"></i>
-                                </div>
-                                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae conse quatur vellum rem</p>
-                                <div class="testimonial-author">
-                                    <img src="assets/img/testimonial/testimonial-author-1.png" alt="testimonial author">
-                                    <h6>Michael W. Kirwan <span>CEO & founder</span></h6>
-                                </div>
-                            </div>
-                            <div class="single-testimonial single-testimonial-v2">
-                                <div class="quote-thumbnail">
-                                    <i class="flaticon-right-quote"></i>
-                                </div>
-                                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae conse quatur vellum rem</p>
-                                <div class="testimonial-author">
-                                    <img src="assets/img/testimonial/testimonial-author-2.png" alt="testimonial author">
-                                    <h6>Ricky L. Simpson <span>Web designer</span></h6>
-                                </div>
-                            </div>
-                            <div class="single-testimonial single-testimonial-v2">
-                                <div class="quote-thumbnail">
-                                    <i class="flaticon-right-quote"></i>
-                                </div>
-                                <p>On the other hand denounce with righteous indignation dislike men who are so beguiled and demoralized by charms</p>
-                                <div class="testimonial-author">
-                                    <img src="assets/img/testimonial/testimonial-author-3.png" alt="testimonial author">
-                                    <h6>Harold S. Richardson <span>Saas developer</span></h6>
-                                </div>
-                            </div>
-                            <div class="single-testimonial single-testimonial-v2">
-                                <div class="quote-thumbnail">
-                                    <i class="flaticon-right-quote"></i>
-                                </div>
-                                <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae conse quatur vellum rem</p>
-                                <div class="testimonial-author">
-                                    <img src="assets/img/testimonial/testimonial-author-2.png" alt="testimonial author">
-                                    <h6>Ricky L. Simpson <span>Web designer</span></h6>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </section> <!-- /.testimonial-area -->
-        <!--====== End Testimonial Area ======-->
-        <!--====== Start Pricing Area ======-->
-        <section class="pricing-area pt-130 pb-109">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5">
-                        <div class="pricing-area-content content-right-spacer">
-                            <div class="section-title section-title-tuna">
-                                <h2>Choose The Best Package For Your <br class="d-none d-lg-block">
-                                    <span>Applications</span>
-                                </h2>
-                                <div class="section-title-description">
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremq ue laudante totam rem aperiam</p>
-                                </div>
-                            </div>
-                            <div class="simple-counter-up">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="single-counter-up single-counter-up-v2">
-                                            <div class="counterup-info">
-                                                <h2>
-                                                    <span class="counter">35</span>
-                                                    <span class="sign">+</span>
-                                                </h2>
-                                                <p>Download Apps</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="single-counter-up single-counter-up-v2">
-                                            <div class="counterup-info">
-                                                <h2>
-                                                    <span class="counter">79</span>
-                                                    <span class="sign">+</span>
-                                                </h2>
-                                                <p>Project Complete</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-7">
-                        <div class="pricing-table-wrapper">
-                            <div class="pricing-table pricing-table-v2 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                <div class="pricing-plan-title">
-                                    <div class="pricing-table-icon">
-                                        <h5 class="plan-title bg-burning-orange-gradient">Single Team</h5>
-                                    </div>
-                                    <div class="pricing-plan-features">
-                                        <ul>
-                                            <li class="plan-feature">Social Media Marketing</li>
-                                            <li class="plan-feature">2.100 Keywords</li>
-                                            <li class="plan-feature">One Way Link Building</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="pricing-table-foot">
-                                    <div class="pricing-plan-cost">
-                                        <span class="payment-currency">$</span>
-                                        <span class="plan-price">29.24</span>
-                                        <span class="plan-type"> /monthly</span>
-                                    </div>
-                                    <div class="plan-select">
-                                        <a href="service-details.html" class="filled-btn bg-rose-bud">Select Plan <i class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pricing-table pricing-table-v2 wow fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
-                                <div class="pricing-plan-title">
-                                    <div class="pricing-table-icon">
-                                        <h5 class="plan-title bg-ocean-blue-gradient">Professional</h5>
-                                    </div>
-                                    <div class="pricing-plan-features">
-                                        <ul>
-                                            <li class="plan-feature">Social Media Marketing</li>
-                                            <li class="plan-feature">2.100 Keywords</li>
-                                            <li class="plan-feature">One Way Link Building</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="pricing-table-foot">
-                                    <div class="pricing-plan-cost">
-                                        <span class="payment-currency">$</span>
-                                        <span class="plan-price">99.27</span>
-                                        <span class="plan-type"> /monthly</span>
-                                    </div>
-                                    <div class="plan-select">
-                                        <a href="service-details.html" class="filled-btn bg-tuna">Select Plan <i class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </section> <!-- /.pricing-area -->
-        <!--====== End Pricing Area ======-->
-        <!--====== Start App Call to Action Area ======-->
-        <section class="app-cta-area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-7 align-self-lg-end order-2 order-lg-1">
-                        <div class="section-left-image text-center animate-float-bob-x content-right-spacer wow fadeInDown" data-wow-delay="0ms" data-wow-duration="2000ms">
-                            <img src="assets/img/cta/download-app-cta-thumbnail.png" alt="app download thumbnail">
-                        </div>
-                    </div>
-                    <div class="col-lg-5 order-1 order-lg-2">
-                        <div class="section-title pb-55 section-title-tuna">
-                            <h2>Download Our Apps 
-                                <span>Available Now </span>
-                            </h2>
-                            <div class="section-title-description">
-                                <p class="mb-10">Sed ut perspiciatis unde omnis iste natus errors voluptatem accusantium doloremque laudantium totam rem aperiam eaqpsae.</p>
-                                <p>Quae abillo inventore veritatis quasi architecto beatae vitae dicta sunt explicabe.</p>
-                            </div>
-                            <div class="section-button-wrapper section-dual-button">
-                                <a href="service-details.html" class="filled-btn bg-rose-bud">
-                                    Apple Store <i class="fab fa-apple"></i>
-                                </a>
-                                <a href="service-details.html" class="filled-btn bg-tuna">
-                                    Google Play <i class="fab fa-google-play"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </section> <!-- /.app-cta-area -->
-        <!--====== End App Call to Action Area ======-->
-        <!--====== Start Footer Area ======-->
-        <footer class="footer-area footer-area-v2 bg-tuna">
-            <div class="container">
-                <div class="footer-area-internal border-0">
+                <div class="footer-bottom" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
                     <div class="row">
-                        <!-- Single Footer Widget -->
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <div class="single-footer-widget footer-text-widget">
-                                <h5 class="widget-title">About Landio</h5>
-                                <p>Sed ut perspiciatis undmnis iste natus error sit voluptatem accusantium dolore udantiuy totam rem aperiam.</p>
-                                <div class="footer-social-links">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- /.single-footer-widget -->
-                        </div>
-                        <!-- Single Footer Widget -->
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="single-footer-widget">
-                                <h5 class="widget-title">Resources</h5>
-                                <div class="footer-widget-menu">
-                                    <ul>
-                                        <li><a href="service.html">Saas Development</a></li>
-                                        <li><a href="service-details.html">Our Products</a></li>
-                                        <li><a href="about.html">User Strategy</a></li>
-                                        <li><a href="blog-standard.html">Blogs & Guides</a></li>
-                                        <li><a href="contact.html">Premium Support</a></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- /.single-footer-widget -->
-                        </div>
-                        <!-- Single Footer Widget -->
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="single-footer-widget">
-                                <h5 class="widget-title">Company</h5>
-                                <div class="footer-widget-menu">
-                                    <ul>
-                                        <li><a href="about.html">About Landio</a></li>
-                                        <li><a href="contact.html">Contact & Support</a></li>
-                                        <li><a href="about.html">Success History</a></li>
-                                        <li><a href="service.html">Setting & Privacy</a></li>
-                                        <li><a href="about.html">Company History</a></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- /.single-footer-widget -->
-                        </div>
-                        <!-- Single Footer Widget -->
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="single-footer-widget contact-us-widget">
-                                <h5 class="widget-title">Contact Us</h5>
-                                <div class="footer-widget-menu">
-                                    <ul>
-                                        <li><a href="#"><i class="fal fa-map-marker-alt"></i> 55 Old Broad Street, London, EC2M</a></li>
-                                        <li><a href="https://webtend.net/cdn-cgi/l/email-protection#dcafa9acacb3aea89cbbb1bdb5b0f2bfb3b1"><i class="fal fa-envelope-open-text"></i> <span class="__cf_email__" data-cfemail="a9dadcd9d9c6dbdde9cec4c8c0c587cac6c4">[email&#160;protected]</span></a></li>
-                                        <li><a href="tel:+01234567899"><i class="fal fa-phone"></i> +012 (345) 678 99</a></li>
-                                    </ul>
-                                </div>
-                            </div> <!-- /.single-footer-widget -->
-                        </div>
-                    </div> <!-- /.row -->
-                </div> <!-- /.footer-area-internal -->
-            </div> <!-- /.container -->
-            <div class="footer-copyright-area wow fadeInDown" data-wow-delay="0.8s">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 col-sm-4">
-                            <div class="footer-logo">
-                                <img src="assets/img/logo-white.png" alt="footer logo white">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-8">
+                        <div class="col-md-6">
                             <div class="footer-copyright">
-                                <p>&copy; 2021 <a href="#">Landio.</a> All Rights Reserved</p>
+                                <span class="copyright-text">© 2021. All rights reserved by <a href="https://axilthemes.com/">Axilthemes</a>.</span>
                             </div>
                         </div>
-                    </div> <!-- /.row -->
-                </div> <!-- /.container -->
-            </div> <!-- /.footer-copyright-area -->
-        </footer> <!-- /.footer-area -->
-        <!--====== End Footer Area ======-->
-        <!--======= Scroll To Top =======-->
-        <a href="#" data-target="html" class="scroll-to-target scroll-to-top bg-burning-orange"><i class="fa fa-angle-up"></i></a>
-        <!--====== Optional Javascript ======-->
-        <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.6.0.min.js"></script>
-        <!--====== Popper JS ======-->
-        <script src="assets/js/popper.min.js"></script>
-        <!--====== Bootstrap JS ======-->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!--====== Slick Slider JS ======-->
-        <script src="assets/js/slick.min.js"></script>
-        <!--====== Wow JS ======-->
-        <script src="assets/js/wow.js"></script>
-        <!--====== Nice Select ======-->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <!--====== Counter Up JS ======-->
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <!--====== Magnific Popup JS ======-->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!--====== Waypoint JS ======-->
-        <script src="assets/js/jquery.waypoints.js"></script>
-        <!--====== Main Script ======-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                        <div class="col-md-6">
+                            <div class="footer-bottom-link">
+                                <ul class="list-unstyled">
+                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="terms-of-use.html">Terms of Use</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-<!-- Mirrored from webtend.net/demo/html/landio/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Aug 2021 21:56:38 GMT -->
+
+
+
+        <!--=====================================-->
+        <!--=       Offcanvas Menu Area       	=-->
+        <!--=====================================-->
+        <div class="offcanvas offcanvas-end header-offcanvasmenu" tabindex="-1" id="offcanvasMenuRight">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form action="#" class="side-nav-search-form">
+                    <div class="form-group">
+                        <input type="text" class="search-field" name="search-field" placeholder="Search...">
+                        <button class="side-nav-search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+                <div class="row ">
+                    <div class="col-lg-5 col-xl-6">
+                        <ul class="main-navigation list-unstyled">
+                            <li><a href="index-1.html">Digital Agency</a></li>
+                            <li><a href="index-2.html">Creative Agency</a></li>
+                            <li><a href="index-3.html">Personal Portfolio</a></li>
+                            <li><a href="index-4.html">Home Startup</a></li>
+                            <li><a href="index-5.html">Corporate Agency</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7 col-xl-6">
+                        <div class="contact-info-wrap">
+                            <div class="contact-inner">
+                                <address class="address">
+                                    <span class="title">Contact Information</span>
+                                    <p>Theodore Lowe, Ap #867-859 <br> Sit Rd, Azusa New York</p>
+                                </address>
+                                <address class="address">
+                                    <span class="title">We're Available 24/7. Call Now.</span>
+                                    <a class="tel" href="tel:8884562790"><i class="fas fa-phone"></i>(888)
+                                        456-2790</a>
+                                    <a class="tel" href="tel:12125553333"><i class="fas fa-fax"></i>(121)
+                                        255-53333</a>
+                                </address>
+                            </div>
+                            <div class="contact-inner">
+                                <h5 class="title">Find us here</h5>
+                                <div class="contact-social-share">
+                                    <ul class="social-share list-unstyled">
+                                        <li><a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.behance.net/"><i class="fab fa-behance"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery Js -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendor/waypoints.min.js"></script>
+    <script src="assets/js/vendor/counterup.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/sal.js"></script>
+    <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendor/js.cookie.js"></script>
+    <script src="assets/js/vendor/jquery.style.switcher.js"></script>
+    <script src="assets/js/vendor/jquery.countdown.min.js"></script>
+    <script src="assets/js/vendor/tilt.js"></script>
+    <script src="assets/js/vendor/green-audio-player.min.js"></script>
+    <script src="assets/js/vendor/jquery.nav.js"></script>
+
+    <!-- Site Scripts -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+
+<!-- Mirrored from axilthemes.com/demo/template/abstrak/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Oct 2021 12:10:17 GMT -->
 </html>
