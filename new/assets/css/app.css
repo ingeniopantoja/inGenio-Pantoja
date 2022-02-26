@@ -63,7 +63,7 @@ STYLESHEET INDEXING
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap");
 
 :root {
-    --color-primary: #5956E9;
+    --color-primary: #F47A0B;
     --color-white: #ffffff;
     --color-black: #000000;
     --color-light: #ECF2F6;
@@ -89,7 +89,7 @@ STYLESHEET INDEXING
     --color-ghost: #C7C7D5;
     --color-mercury: #E5E5E5;
     --gradient-primary: linear-gradient(90deg, #ECF2F6 0%, rgba(236, 242, 246, 0) 70.31%);
-    --gradient-blue: linear-gradient(145.92deg, #5956E9 20.18%, #9991FF 76.9%);
+    --gradient-blue: linear-gradient(145.92deg, #F47A0B 20.18%, #9991FF 76.9%);
     --gradient-accent: linear-gradient(180deg, #FAB8C4 0%, #FFEDF0 100%);
     --gradient-white: linear-gradient(266.3deg, rgba(236, 242, 246, 0) 7.84%, #ECF2F6 29.1%, rgba(236, 242, 246, 0) 64.32%);
     --gradient-dark: linear-gradient(180deg, #27272E 0%, #303035 100%);
@@ -2695,7 +2695,7 @@ Pagination
 
 .banner .banner-content .axil-btn {
     padding: 28px 45px;
-    box-shadow: 0 44px 84px -24px #5956e9;
+    box-shadow: 0 44px 84px -24px #F47A0B;
 }
 
 @media only screen and (max-width: 991px) {
