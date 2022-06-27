@@ -1,33 +1,31 @@
-@import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;
-    500;
-    600;
-    700;
-    800&amp;
-    display=swap";
-.text-gradient-primary {
-  background: linear-gradient(to right, #f47a0b, #de8800, #fab300);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 @font-face {
   font-family: "E-SQUARE";
-  src: url("fonts/E-SQUARE.eot");
-  src: url("fonts/E-SQUARE.eot?#iefix") format("embedded-opentype"),
-    url("fonts/E-SQUARE.woff2") format("woff2"),
-    url("fonts/E-SQUARE.woff") format("woff"),
-    url("fonts/E-SQUARE.ttf") format("truetype"),
-    url("fonts/E-SQUARE.svg#E-SQUARE") format("svg");
+  src: url("https://soynovauno.com/assets/css/fonts/E-SQUARE.eot");
+  src: url("https://soynovauno.com/assets/css/fonts/E-SQUARE.eot?#iefix") format("embedded-opentype"),
+    url("https://soynovauno.com/assets/css/fonts/E-SQUARE.woff2") format("woff2"),
+    url("https://soynovauno.com/assets/css/fonts/E-SQUARE.woff") format("woff"),
+    url("https://soynovauno.com/assets/css/fonts/E-SQUARE.ttf") format("truetype"),
+    url("https://soynovauno.com/assets/css/fonts/E-SQUARE.svg#E-SQUARE") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
 .font-SN1 {
   font-family: "E-SQUARE";
   font-weight: normal;
   font-style: normal;
 }
+.font-iPan {
+  font-family: 'Viga', sans-serif;
+} 
 
+.text-gradient-primary {
+  background: linear-gradient(to right, #f47a0b, #de8800, #fab300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -74,7 +72,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 123, 111, 88;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Manrope", sans-serif;
+  --bs-font-sans-serif: "Roboto", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(
