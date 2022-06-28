@@ -6911,7 +6911,7 @@ fieldset:disabled .btn {
 }
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: #c9bfb4 !important;
+  background-color: #F7F7EB !important;
 }
 .bg-success {
   --bs-bg-opacity: 1;
@@ -7006,19 +7006,23 @@ fieldset:disabled .btn {
   pointer-events: auto !important;
 }
 .rounded {
-  border-radius: 0.375rem !important;
+  /*border-radius: 0.375rem !important;*/
+  border-radius: 0.5rem !important;
 }
 .rounded-0 {
   border-radius: 0 !important;
 }
 .rounded-1 {
-  border-radius: 0.25rem !important;
+  /*border-radius: 0.25rem !important;*/
+  border-radius: 1rem !important;
 }
 .rounded-2 {
-  border-radius: 0.375rem !important;
+  /*border-radius: 0.375rem !important;*/
+  border-radius: 2rem !important;
 }
 .rounded-3 {
-  border-radius: 0.5rem !important;
+ /* border-radius: 0.5rem !important; */
+  border-radius: 3rem !important;
 }
 .rounded-circle {
   border-radius: 50% !important;
